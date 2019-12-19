@@ -1,0 +1,52 @@
+{
+    "name": "StatTrackr",
+    "description": "Make every shot count.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1792-stattrackr.jpg",
+    "tags": [
+        "basketball",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/stattrackr\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "StatTrackr",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1792-stattrackr.jpg",
+            "humanURL": "http:\/\/stattrackr.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stattrackr-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stattrackr-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": " http:\/\/api.stattrackr.com "
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developer.stattrackr.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/thestattrackr"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/stattrackr.com"
+        }
+    ]
+}
